@@ -60,16 +60,17 @@ address{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -110,18 +111,19 @@ address{
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
 
-.hero-buttom {
+buttom {
     background-color: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    font-size: 16px;
 }
-.hero-buttom:hover,
-.hero-buttom:active {
+buttom:hover,
+buttom:active {
     background-color: #404bbf;
 }
 
@@ -145,8 +147,18 @@ address{
 /* contacts */
 
 .contacts {
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
 }
+
+.contacts-tittle{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.contacts-list {
+    background-color: #FFFFFF;
+} 
 
 .contacts-name {
     font-weight: 500;
@@ -170,6 +182,8 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -190,7 +204,8 @@ address{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #f4f4fd;
+    color: #4d5ae5;
+    text-transform: uppercase
 }
 
 .footer-text {
