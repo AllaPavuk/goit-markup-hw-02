@@ -52,10 +52,7 @@ address{
     color: #2e2f42;
 }
 
-.header {
-    
-}
-
+/* header */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -100,6 +97,9 @@ address{
     color: #404bbf;
 }
 
+/* main */
+/* hero */
+
 .hero {
     background-color: #2E2F42;
 }
@@ -125,6 +125,8 @@ address{
     background-color: #404bbf;
 }
 
+/* info */
+
 .info-tittel {
     font-weight: 500;
     font-size: 20px;
@@ -139,6 +141,8 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* contacts */
 
 .contacts {
     background-color: #E7E9FC;
@@ -158,6 +162,8 @@ address{
     letter-spacing: 0.02em;
 }
 
+/* portfolio */
+
 .portfolio-tittle {
     font-weight: 500;
     font-size: 20px;
@@ -171,6 +177,8 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* footer */
 
 .footer {
     background: #2e2f42;
