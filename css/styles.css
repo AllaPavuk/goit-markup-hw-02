@@ -31,25 +31,14 @@ address{
 
 /* region */
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 .section-tittle{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* header */
@@ -114,7 +103,7 @@ address{
     text-align: center;
 }
 
-buttom {
+.buttom {
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -122,8 +111,8 @@ buttom {
     color: #fff;
     font-size: 16px;
 }
-buttom:hover,
-buttom:active {
+.buttom:hover,
+.buttom:active {
     background-color: #404bbf;
 }
 
@@ -156,7 +145,7 @@ buttom:active {
 
 }
 
-.contacts-list {
+.contacts-list-item {
     background-color: #FFFFFF;
 } 
 
@@ -181,9 +170,7 @@ buttom:active {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    text-transform: capitalize;
+    color: #2e2f42;    
 }
 
 .portfolio-text {
@@ -206,6 +193,9 @@ buttom:active {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase
+}
+.accent-footer {
+    color:#f4f4fd;
 }
 
 .footer-text {
