@@ -29,6 +29,37 @@ address{
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 12px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+
 /* region */
 
 .section-tittle{
@@ -101,6 +132,10 @@ address{
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
+    width: 496px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+
 }
 
 .button {
